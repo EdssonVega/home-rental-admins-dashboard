@@ -2,6 +2,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { loginFailure, loginRequest, loginSucces } from '../../state/auth/authSlice';
 import LoginForm from '../components/loginForm';
+import { Navigate } from 'react-router-dom';
 
 export const LoginPage = () => {
 
@@ -23,7 +24,7 @@ export const LoginPage = () => {
   };
 
   if(isAuthenticated){
-    return <div>!Bienvenido de nuevo!</div>;
+   return <Navigate to={"/homes"}/>
   }
 
   return (
