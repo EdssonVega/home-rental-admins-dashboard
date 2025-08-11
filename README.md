@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Credenciales de prueba
+
+ Si la aplicación requiere iniciar sesión con un usuario y contraseña, puedes usar las siguientes credenciales de ejemplo para probar la funcionalidad:
+
+   - **Usuario:** `edssonvega@gmail.com`
+   - **Contraseña:** `12345678`
+
+## Enlace al Proyecto Deployado
+
+Puedes ver el proyecto desplegado en el siguiente enlace:
+
+[Ver Proyecto en Netlify](https://home-rental-admin-dashboard.netlify.app/)
