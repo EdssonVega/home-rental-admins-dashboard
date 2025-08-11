@@ -1,37 +1,37 @@
 export const houses = [
   {
     name: "Casa en la Playa",
-    address: "Av. del Mar 123, Puerto Viejo",
+    address: "cochabamba",
     description: "Hermosa casa con vista al mar y acceso privado a la playa.",
     price: 2500,
-    image: "https://via.placeholder.com/400x300?text=Casa+en+la+Playa"
+    image: "/images/casa1.jpg"
   },
   {
     name: "Departamento en el Centro",
-    address: "Calle Ficticia 456, Ciudad Central",
+    address: "lima",
     description: "Departamento moderno en el corazón de la ciudad, cerca de tiendas y restaurantes.",
     price: 1800,
-    image: "https://via.placeholder.com/400x300?text=Departamento+en+el+Centro"
+    image: "/images/casa2.jpg"
   },
   {
     name: "Casa con Jardín",
-    address: "Calle Verde 789, Ciudad Jardín",
+    address: "washington",
     description: "Casa espaciosa con un hermoso jardín privado y área para mascotas.",
     price: 3000,
-    image: "https://via.placeholder.com/400x300?text=Casa+con+Jardín"
+    image: "/images/casa3.jpg"
   },
   {
     name: "Loft Moderno",
-    address: "Calle Sol 321, Barrio Nuevo",
+    address: "moscu",
     description: "Loft de lujo con diseño contemporáneo, ideal para una persona o pareja.",
     price: 2200,
-    image: "https://via.placeholder.com/400x300?text=Loft+Moderno"
+    image: "/images/casa4.jpg"
   },
   {
     name: "Casa Familiar en las Montañas",
-    address: "Montaña Alta 456, Sierra Bella",
+    address: "buenos aires",
     description: "Gran casa familiar en un entorno tranquilo con vistas panorámicas a las montañas.",
     price: 4000,
-    image: "https://via.placeholder.com/400x300?text=Casa+Familiar+en+las+Montañas"
+    image: "/images/casa5.jpg"
   }
 ];

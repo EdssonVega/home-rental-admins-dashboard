@@ -34,7 +34,7 @@ export const HomeDetailPage = () => {
         <div className='home-detail'>
             <div className='home-detail-content'>
                 <h2>{house.name}</h2>
-                <img src={house.image} alt={house.name} style={{ width: '100%', height: 'auto', maxHeight: '500px', objectFit: 'cover' }}/>
+                <img src={house.image} alt={house.name} style={{ width: '50%', height: 'auto', maxHeight: '500px', objectFit: 'cover' }}/>
                 {loading ? (
           <p>Cargando clima...</p>
         ) : error ? (
