@@ -1,0 +1,54 @@
+.homes-list-page {
+  margin: 20px;
+  padding: 20px;
+}
+
+.homes-list-page h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.homes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.homes-table th, .homes-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.homes-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.homes-table tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.house-img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.house-img:hover {
+  transform: scale(1.1);
+}
+
+.link-row {
+display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-row:hover {
+  background-color: #eaeaea;
+  text-decoration: none;
+}
+
+

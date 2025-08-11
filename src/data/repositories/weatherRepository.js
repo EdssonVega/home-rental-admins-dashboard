@@ -1,10 +1,13 @@
-import { fetchWeather } from "../datasources/weatherDatasource"
+import { getWeatherFailure, getWeatherRequest, getWeatherSuccess } from '../../state/weather/weatherSlice';
+import { fetchWeather } from '../datasources/weatherDatasource';
 
-export const getWeatherByAddress = async(address) => {
-    try {
-        const weatherData = await fetchWeather(address);
-        return weatherData;
-    } catch (error) {
-        throw new Error("No se pudo obtener los datos del clima")
-    }
+
+export const fetchWeatherData = (address) => async (dispatch) => {
+  dispatch(getWeatherRequest());
+  try {
+    const weatherData = await fetchWeather(address);
+    dispatch(getWeatherSuccess(weatherData)); 
+  } catch (error) {
+    dispatch(getWeatherFailure("No se pudo obtener el clima"));
+  }
 };
